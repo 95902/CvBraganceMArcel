@@ -1,25 +1,25 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Junior Full Stack Developer",
+    "name": "Marcel Bragance",
+    "label": "Développeur Web Full-Stack PHP",
     "image": "/me_avatar.jpg",
-    "email": "john.doe@example.com",
-    "phone": "+1 555-555-5555",
-    "url": "https://johndoe.dev",
-    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "email": "bragance.m@hotmail.fr",
+    "phone": "06-58-22-39-29",
+    "url": "https://mars-hell.netlify.app/",
+    "summary": "Développeur Web passionné, je recherche une opportunité pour mettre à profit mes compétences en développement frontend et backend au sein d'une entreprise innovante.",
     "theme": "default",
     "location": {
-      "address": "",
-      "postalCode": "10001",
-      "city": "Auckland",
-      "countryCode": "NZ",
-      "region": "New Zealand"
+      "address": "93 Montreuil",
+      "postalCode": "",
+      "city": "Montreuil",
+      "countryCode": "FR",
+      "region": "France"
     },
     "profiles": [
       {
-        "network": "LinkedIn",
-        "username": "john-doe",
-        "url": "https://linkedin.com/in/john-doe"
+       "network": "LinkedIn",
+        "username": "marcel-bragance",
+        "url": "https://www.linkedin.com/in/marcel-bragance/"
       },
       {
         "network": "X",
@@ -28,21 +28,21 @@
       },
       {
         "network": "GitHub",
-        "username": "johndoe",
-        "url": "https://github.com/johndoe"
+        "username": "95902",
+        "url": "https://github.com/95902"
       }
     ]
   },
   "work": [
     {
-      "name": "Tech Startup",
-      "position": "Junior Web Developer",
+      "name": "InnoSys",
+      "position": "Développeur Web PHP",
       "location_type": "On site",
-      "location": "Auckland, New Zealand",
-      "url": "https://techstartup.com",
-      "startDate": "2024-01-01",
-      "endDate": null,
-      "summary": "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs.",
+      "location": "Paris, France",
+      "url": "https://www.innosys.fr/",
+      "startDate": "2021-09",
+      "endDate": "2024-10",
+      "summary": "Maintenance des sites web existants pour garantir leur bon fonctionnement, gestion du back office et front-end, réalisation de tests unitaires, intégration de maquettes et déploiement automatique de sites.",
       "highlights": [
         "Improved website performance by optimizing code"
       ],

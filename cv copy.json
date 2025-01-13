@@ -1,0 +1,156 @@
+
+{
+  "basics": {
+    "name": "Marcel Bragance",
+    "label": "Développeur Web Full-Stack PHP",
+    "image": "",
+    "email": "bragance.m@hotmail.fr",
+    "phone": "06-58-22-39-29",
+    "url": "https://mars-hell.netlify.app/",
+    "summary": "Développeur Web passionné, je recherche une opportunité pour mettre à profit mes compétences en développement frontend et backend au sein d'une entreprise innovante.",
+    "theme": "default",
+    "location": {
+      "address": "93 Montreuil",
+      "postalCode": "",
+      "city": "Montreuil",
+      "countryCode": "FR",
+      "region": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "marcel-bragance",
+        "url": "https://www.linkedin.com/in/marcel-bragance/"
+      },
+      {
+        "network": "GitHub",
+        "username": "95902",
+        "url": "https://github.com/95902"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "InnoSys",
+      "position": "Développeur Web PHP",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "url": "",
+      "startDate": "2021-09",
+      "endDate": "2024-10",
+      "summary": "Maintenance des sites web existants pour garantir leur bon fonctionnement, gestion du back office et front-end, réalisation de tests unitaires, intégration de maquettes et déploiement automatique de sites.",
+      "highlights": [
+        "Développement de services web",
+        "Déploiement automatique de sites"
+      ],
+      "skills": [
+        "PHP",
+        "Symfony",
+        "Laravel",
+        "CI/CD",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "IRIS Boutique",
+      "position": "Stagiaire Développeur",
+      "location_type": "On site",
+      "location": "Le Marais, Paris",
+      "startDate": "2019-12",
+      "endDate": "2020-01",
+      "summary": "Stage de 1 mois en développement web."
+    },
+    {
+      "name": "Younited Credit",
+      "position": "Stagiaire Développeur",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "startDate": "2020-02",
+      "endDate": "2020-03",
+      "summary": "Stage de 2 mois en développement web."
+    }
+  ],
+  "education": [
+    {
+      "institution": "IRIS - École supérieure d'informatique",
+      "url": "",
+      "area": "Métiers de l’informatique",
+      "studyType": "Licence Pro",
+      "startDate": "2020-09",
+      "endDate": "2021-06",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Greta Météhor",
+      "url": "",
+      "area": "SIO - SLAM",
+      "studyType": "BTS",
+      "startDate": "2019-09",
+      "endDate": "2020-06",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Symfony 7",
+      "date": "",
+      "issuer": "YoanDev",
+      "url": "https://formation.yoandev.co/view/courses/decouvrez-symfony-7-en-7-projets"
+    }
+  ],
+  "skills": [
+    {
+      "name": "PHP",
+      "level": "Avancé",
+      "keywords": ["Développement backend"]
+    },
+    {
+      "name": "Symfony",
+      "level": "Avancé",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermédiaire",
+      "keywords": ["Framework"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermédiaire",
+      "keywords": ["Version Control"]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermédiaire",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "Ansible",
+      "level": "Intermédiaire",
+      "keywords": ["DevOps"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermédiaire",
+      "keywords": ["Frontend"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "B1 (usage professionnel)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Golf",
+      "keywords": ["Concentration", "Force mentale"]
+    }
+  ]
+}
