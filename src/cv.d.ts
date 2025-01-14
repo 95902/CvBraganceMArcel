@@ -46,6 +46,10 @@ interface Work {
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
+  backoffice: string;
+  frontoffice: string;
+  fonctionnalite: string;
+  fonctionnalites: string;
   highlights: Highlight;
 }
 

@@ -2,7 +2,7 @@
   "basics": {
     "name": "Marcel Bragance",
     "label": "Développeur Web Full-Stack PHP",
-    "image": "/me_avatar.jpg",
+    "image": "/CvBraganceMArcel//me_avatar.jpg",
     "email": "bragance.m@hotmail.fr",
     "phone": "06-58-22-39-29",
     "url": "https://mars-hell.netlify.app/",
@@ -42,22 +42,47 @@
       "url": "https://www.innosys.fr/",
       "startDate": "2021-09",
       "endDate": "2024-10",
-      "summary": "Maintenance des sites web existants pour garantir leur bon fonctionnement, gestion du back office et front-end, réalisation de tests unitaires, intégration de maquettes et déploiement automatique de sites.",
+      "summary": "Le projet Magarantieauto,L’objectif était de rendre le site plus convivial et plus attractif pour les utilisateurs, tout en améliorant la gestion des données et du contenu.",
       "highlights": [
-        "Improved website performance by optimizing code"
+        "Développement de services web"
+      ],
+      "backoffice": [
+        "👨‍🔧Back-office "
+        
       ],
       "responsibilities": [
-        "Collaborated with senior developers to design and implement web applications using modern JavaScript frameworks.",
-        "Assisted in debugging and optimizing front-end code to ensure smooth user experiences.",
-        "Participated in code reviews and contributed to improving coding standards within the team."
+        "Système de gestion des prospects avec relances automatiques.",
+        "Refonte du tableau de bord pour améliorer l’accessibilité des données",
+        "Optimisation des outils de recherche et de filtrage.",
+        "Suivi des ventes des commerciaux via des tableaux de bord.",
+        "Développement d’un système de relance des impayés."
       ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
+      "frontoffice": [
+        "🎨Front-office"
+      ],
+      "frontoffices": [
+        "Optimisation du référencement naturel (SEO).",
+        "Campagne publicitaire Google Ads.",
+        "Création d'une section blog."
+
+      ],
+      "fonctionnalite": [
+        "🤖Fonctionnalités"
+      ],
+      "fonctionnalites": [
+        "Participation aux deploiement automatique de sites.",
+        "Mise en place d'API REST.",
+        "Correction des bugs et des problèmes de sécurité."
+
       ],
       "skills": [
-        "React",
-        "Tailwind",
-        "GitHub"
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "Docker",
+        "Postman",
+        "GitHub",
+        "Bootstrap"
       ]
     },
     {
@@ -77,7 +102,7 @@
         "Worked closely with front-end developers to integrate user-facing elements with server-side logic.",
         "Participated in daily stand-ups and bi-weekly sprint planning meetings to ensure alignment with project goals."
       ],
-      "achievements": [
+      "frontoffices": [
         "Successfully implemented a feature that enhanced user authentication, improving security measures."
       ],
       "skills": [
