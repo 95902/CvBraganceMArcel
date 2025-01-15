@@ -41,9 +41,17 @@ const SKILLS_ICONS: Record<string, any> = {
 
 <Section className={Astro.props.className} title="Experience">
   <ul class="flex flex-col">
-    {work.map(({ name, startDate, endDate, position, url, skills, location, location_type, projects }) => {
+    {work.map(({ name, startDate, endDate, position, url, location, location_type, projects }) => {
       const startYear = new Date(startDate).getFullYear();
       const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present";
+      // Traitement des projets avec valeur par défaut pour backoffice
+      const processedProjects = projects.map(project => ({
+        ...project,
+        backoffice: project.backoffice || "Aucune information back-office disponible pour ce projet" // Valeur par défaut
+      }));
+      function shouldDisplaySection(section) {
+  return section && section.length > 0 && section.some(item => item.trim() !== "");
+}
 
       return (
         <li class="relative print:py-2">
@@ -85,7 +93,8 @@ const SKILLS_ICONS: Record<string, any> = {
                       <p class="text-skin-muted">{project.summary}</p>
                     )}
                     <div class="md:after:from-skin-hue dark:md:after:to-skin-hue/0 flex relative flex-col max-sm:!h-auto print:!h-auto gap-4 print:gap-2 md:after:bg-gradient-to-t md:after:absolute md:after:bottom-0 md:after:w-full print:after:hidden md:after:h-12" :class="expanded ? 'after:hidden' : ''" x-show="expanded" x-collapse.min.50px>
-                      {project.backoffice ? (
+                     
+                     {shouldDisplaySection(project.backoffice) && (
                         <div>
                           <h5 class="font-medium">👨‍🔧Back-office:</h5>
                           <ul class="text-skin-muted list-disc ml-4">
@@ -94,21 +103,15 @@ const SKILLS_ICONS: Record<string, any> = {
                             ))}
                           </ul>
                         </div>
-                      ) : project.functionalities && (
-                        <div>
-                          <h5 class="font-medium">🤖Fonctionnalités:</h5>
-                          <ul class="text-skin-muted list-disc ml-4">
-                            {project.functionalities.map(feature => (
-                              <li>{feature}</li>
-                            ))}
-                          </ul>
-                        </div>
                       )}
+                     
                     </div>
                     <div x-show="expanded" x-transition>
-                      {project.frontoffice && (
+                    {shouldDisplaySection(project.frontoffice)&& (
                         <div>
+
                           <h5 class="font-medium">🎨Front-office:</h5>
+                          
                           <ul class="text-skin-muted list-disc ml-4">
                             {project.frontoffice.map(task => (
                               <li>{task}</li>
@@ -116,7 +119,8 @@ const SKILLS_ICONS: Record<string, any> = {
                           </ul>
                         </div>
                       )}
-                      {project.backoffice && project.functionalities && (
+                      
+                       {project.functionalities && (
                         <div>
                           <h5 class="font-medium">🤖Fonctionnalités:</h5>
                           <ul class="text-skin-muted list-disc ml-4">
@@ -126,6 +130,7 @@ const SKILLS_ICONS: Record<string, any> = {
                           </ul>
                         </div>
                       )}
+                      
                       {project.skills && (
                         <div>
                           <h5 class="font-medium my-2">Technologies utilisées:</h5>

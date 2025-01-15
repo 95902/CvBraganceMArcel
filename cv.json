@@ -143,26 +143,26 @@
       "projects": [
         {
           "name": "Magarantieauto",
-          "summary": " l’objectif était de rendre le site plus convivial et attractif pour les utilisateurs, tout en améliorant la gestion des données et du contenu.",
+          "summary": "Objectif rendre le site plus convivial et attractif, avec une gestion améliorée des données et du contenu.",
           "highlights": [
             "Back-office && Front-office"
           ],
           "backoffice": [
-            "Système de gestion des prospects avec relances automatiques.",
-            "Refonte du tableau de bord pour améliorer l’accessibilité des données.",
-            "Optimisation des outils de recherche et de filtrage.",
-            "Suivi des ventes des commerciaux via des tableaux de bord.",
-            "Développement d’un système de relance des impayés."
+            "Mise en place d’un système de gestion des prospects avec relances automatiques.",
+            "Refonte du tableau de bord pour une meilleure accessibilité des données.",
+            "Optimisation des outils de recherche et filtrage.",
+            "Suivi des ventes via des tableaux de bord pour les commerciaux.",
+            "Développement d’un système de relance pour les impayés."
           ],
           "frontoffice": [
             "Optimisation du référencement naturel (SEO).",
-            "Campagne publicitaire Google Ads.",
-            "Création d'une section blog."
+            "Gestion d’une campagne Google Ads.",
+            "Création d’une section blog."
           ],
           "functionalities": [
-            "Participation aux déploiements automatiques de sites.",
-            "Mise en place d'API REST.",
-            "Correction des bugs et des problèmes de sécurité."
+            "Participation aux déploiements automatiques.",
+            "Implémentation d’API REST.",
+            "Correction de bugs et renforcement de la sécurité."
           ],"skills": [
             "PHP",
             "JavaScript",
@@ -175,18 +175,20 @@
 
         }, {
           "name": "Lagon Courtage",
-          "summary": "Maintenance continue du système ET amélioration de l'interface utilisateur et des fonctionnalités existantes.",
+          "summary": "Maintenance du système, amélioration de l’interface utilisateur et des fonctionnalités.",
           "highlights": [
             "Développement de services web"
           ],
           "backoffice": [
-            "Collaboration avec l'équipe commerciale pour ajouter de nouveaux produits au système.",
-            "Optimisation des outils de recherche et de filtrage.",
-            "Suivi des ventes via des tableaux de bord."
+            "Ajout de nouveaux produits en collaboration avec l’équipe commerciale.",
+            "Optimisation des outils de recherche et filtrage.",
+            "Mise en place de tableaux de bord pour le suivi des ventes."
+          ], "frontoffice": [
+            ""
           ],
           "functionalities": [
-            "SOAP API.",
-            "Correction des bugs et des problèmes de sécurité."
+            "Intégration et utilisation des APIs SOAP.",
+            "Correction des bugs."
           ],"skills": [
             "PHP",
             "Ajax",
@@ -199,13 +201,17 @@
           "summary": " Le projet d’intégration du nouveau design.",
           "highlights": [
             "Back-office && Front-office"
+          ],"backoffice": [
+            "Développement de nouvelles fonctionnalités pour améliorer l'expérience utilisateur."
+          ], "frontoffice": [
+            "intégration des nouvelles pages et fonctionnalités"
           ],
           "functionalities": [
-            "Création des nouvelles pages et fonctionnalités.",
             "Participation aux déploiements automatiques de sites."
           ],"skills": [
             "PHP",
             "JavaScript",
+            "Jquery",
             "Bootstrap",
             "Docker",
             "Gulp",
@@ -215,13 +221,15 @@
 
         },{
           "name": "RGPD",
-          "summary": "L’objectif était de créer une plateforme permettant de rédiger et gérer les documents RGPD des projets avec les réglementations relatives à la protection des données personnelles.",
+          "summary": "Création d’une plateforme pour gérer les documents RGPD en conformité avec les réglementations sur la protection des données.",
           "highlights": [
-            "Back-office && Front-office"
+            "Développement du back-office."
           ],
           "backoffice": [
             "Développement d'une interface pour la gestion des documents RGPD des projets",
             "Mise en place de formulaires pour collecter les consentements des utilisateurs"
+          ], "frontoffice": [
+            ""
           ],
 
           "skills": [
@@ -246,11 +254,14 @@
       "projects": [
         {
           "name": "Découverte des Api Rest",
-          "summary": "Ce stage m'a permis de découvrir comment une grande entreprise menait un projet de bout en bout avec la méthode agile et Scrum.",
-        
+          "summary": "Découverte des API REST dans un projet mené en Agile/Scrum",
           "functionalities": [
-            "API REST",
-            "Développement d'une feature"
+            "Développement et intégration d'API REST."
+            ],"backoffice": [
+            "Ajout d’une fonctionnalité backend."
+            
+          ],"frontoffice": [
+            ""
           ],
           "skills": [
             "C#",
@@ -273,7 +284,14 @@
           "name": "Site vitrine",
           "summary": "Ce stage m'a permis de découvrir comment s'organiser autour d'un projet avec un client.",
           "functionalities": [
-            "MVC"
+            "Architecture MVC mise en œuvre pour séparer la logique métier, la présentation et les contrôleurs, permettant une maintenance et une évolutivité facilitées."
+          ],
+          "backoffice": [
+            "Conception et développement du backoffice basé sur l'architecture MVC, incluant la gestion des données."
+            
+          ], "frontoffice": [
+            "Création de maquettes interactives et intégration dans un frontoffice basé sur le modèle MVC."
+
           ],
           "skills": [
             "Php",

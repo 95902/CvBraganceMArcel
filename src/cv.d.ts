@@ -67,11 +67,11 @@ interface Work {
 interface Project {
   projet1nom: string;
   name: string; // Nom du projet
-  backoffice: string; // Description du backoffice
-  frontoffice: string; // Description du frontoffice
-  fonctionnalite: string; // Fonctionnalité principale
-  fonctionnalites: string[]; // Liste des fonctionnalités
-  highlights: Highlight[]; // Points forts ou réalisations spécifiques
+  backoffice?: string; // Description du backoffice
+  frontoffice?: string; // Description du frontoffice
+  fonctionnalite?: string; // Fonctionnalité principale
+  fonctionnalites?: string[]; // Liste des fonctionnalités
+  highlights?: Highlight[]; // Points forts ou réalisations spécifiques
   skills:Skills[]; // Ajout de la propriété skills
 
 }
