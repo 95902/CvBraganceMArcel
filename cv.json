@@ -321,73 +321,85 @@
   ],
   "education": [
     {
-      "institution": "State University",
-      "url": "https://stateuniversity.edu",
-      "area": "Computer Science",
-      "studyType": "Bachelor",
-      "startDate": "2018-09-01",
-      "endDate": "2022-05-01",
-      "score": "3.8",
-      "courses": [
-        "CS101 - Introduction to Computer Science",
-        "CS102 - Data Structures"
-      ]
+      "institution": "IRIS - École supérieure d'informatique",
+      "url": "https://ecoleiris.fr/",
+      "area": "Métiers de l’informatique",
+      "studyType": "Licence Pro",
+      "startDate": "2020-09",
+      "endDate": "2021-06",
+      "score": "",
+      "courses": []
     },
     {
-      "institution": "Tech Institute",
-      "url": "https://techinstitute.edu",
-      "area": "Software Engineering",
-      "studyType": "Master",
-      "startDate": "2020-09-01",
-      "endDate": "2022-12-01",
-      "score": "3.9",
-      "courses": [
-        "SE201 - Advanced Software Development",
-        "SE202 - Software Architecture and Design"
-      ]
+      "institution": "Simplon Apple Foundation Program 2020",
+      "url": "https://www.simplon.co/developpement/apple-foundation-program",
+      "area": "IOS",
+      "studyType": "BTS",
+      "startDate": "2020-06",
+      "endDate": "2020-07",
+      "score": "",
+      "courses": []
     },
     {
-      "institution": "City College",
-      "url": "https://citycollege.edu",
-      "area": "Information Technology",
-      "studyType": "Associate Degree",
-      "startDate": "2017-01-01",
-      "endDate": "2019-12-01",
-      "score": "3.7",
-      "courses": [
-        "IT101 - Networking Fundamentals",
-        "IT102 - Database Management Systems"
-      ]
+      "institution": "Greta Météhor",
+      "url": "https://gretametehor.com/",
+      "area": "SIO - SLAM",
+      "studyType": "BTS",
+      "startDate": "2019-09",
+      "endDate": "2020-06",
+      "score": "",
+      "courses": []
     }
   ],
   "certificates": [
     {
-      "name": "Full Stack Web Development",
+      "name": "Laravel",
       "date": "2023-05-01",
-      "issuer": "Online University",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
-    }
-  ],
-  "skills": [
+      "issuer": "",
+      "url": "https://www.udemy.com/fr/"
+    },
     {
-      "name": "Figma",
-      "level": "Expert",
+      "name": "Symfony 7",
+      "date": "2024-09-15",
+      "issuer": "",
+      "url": "https://yoandev.co/"
+    },
+    {
+      "name": "CI/CD",
+      "date": "2024-08-05",
+      "issuer": "",
+      "url": "https://yoandev.co/"
+    },
+    {
+      "name": "Solidity",
+      "date": "2025-01-01",
+      "issuer": "",
+      "url": "https://soliditylang.org/"
+    },
+    {
+      "name": "Python",
+      "date": "2024-11-01",
+      "issuer": "En cours",
+      "url": "https://www.udemy.com/fr/"
+    } ,{
+      "name": "Flutter",
+      "date": "2024-12-10",
+      "issuer": "En cours",
+      "url": "https://www.udemy.com/fr/"
+    }
+
+]
+,
+  "skills": [
+   {
+      "name": "Php",
+      "level": "",
       "keywords": [
         "Design",
         "UI"
       ]
-    },
-    {
-      "name": "Gitlab",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
-      "name": "HTML",
+    }, {
+      "name": "JavaScript",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
@@ -395,42 +407,63 @@
       ]
     },
     {
-      "name": "CSS",
-      "level": "Intermediate",
+      "name": "Symfony",
+      "level": "Advanced",
       "keywords": [
         "Web Development",
-        "Frontend",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
         "Backend",
-        "Fullstack"
+        "Framework"
       ]
     },
     {
-      "name": "Tailwind",
+      "name": "Laravel",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
-        "Frontend",
-        "CSS Framework",
-        "Responsive Design"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermediate",
-      "keywords": [
-        "Web Development",
-        "Frontend",
         "Backend",
-        "JavaScript Superset"
+        "Framework"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Containers"
+      ]
+    },
+    {
+      "name": "Xd",
+      "level": "Intermediate",
+      "keywords": [
+        "DevOps",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API",
+        "Testing"
+      ]
+    },
+   
+    {
+      "name": "Bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework"
       ]
     },
     {
@@ -454,15 +487,6 @@
       ]
     },
     {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version Control",
-        "Collaboration",
-        "Source Code"
-      ]
-    },
-    {
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
@@ -471,28 +495,34 @@
         "Source Code",
         "Git"
       ]
-    },
+    } ,
+      
     {
-      "name": "Next.js",
-      "level": "Beginner",
+      "name": "HTML",
+      "level": "Intermediate",
       "keywords": [
         "Web Development",
-        "Frontend",
-        "React Framework",
-        "SSR",
-        "Static Generation"
+        "Frontend"
       ]
     },
     {
-      "name": "React",
+      "name": "CSS",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
         "Frontend",
-        "JavaScript Library",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Figma",
+      "level": "",
+      "keywords": [
+        "Design",
         "UI"
       ]
     }
+
   ],
   "languages": [
     {
