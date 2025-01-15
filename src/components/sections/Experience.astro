@@ -49,8 +49,8 @@ const SKILLS_ICONS: Record<string, any> = {
         ...project,
         backoffice: project.backoffice || "Aucune information back-office disponible pour ce projet" // Valeur par défaut
       }));
-      function shouldDisplaySection(section) {
-  return section && section.length > 0 && section.some(item => item.trim() !== "");
+ function shouldDisplaySection(section: (string | null | undefined)[]): boolean {
+  return Array.isArray(section) && section.some((item) => item?.trim() !== "");
 }
 
       return (
