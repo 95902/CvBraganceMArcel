@@ -39,6 +39,21 @@ interface Profiles {
   url: string;
 }
 
+// interface Work {
+//   name: string;
+//   position: string;
+//   url: string;
+//   startDate: DateStr;
+//   endDate: DateStr | null;
+//   summary: string;
+//   projet1: string;
+//   backoffice: string;
+//   frontoffice: string;
+//   fonctionnalite: string;
+//   fonctionnalites: string;
+//   highlights: Highlight;
+// }
+
 interface Work {
   name: string;
   position: string;
@@ -46,12 +61,23 @@ interface Work {
   startDate: DateStr;
   endDate: DateStr | null;
   summary: string;
-  backoffice: string;
-  frontoffice: string;
-  fonctionnalite: string;
-  fonctionnalites: string;
-  highlights: Highlight;
+  projects: Project[]
 }
+
+interface Project {
+  projet1nom: string;
+  name: string; // Nom du projet
+  backoffice: string; // Description du backoffice
+  frontoffice: string; // Description du frontoffice
+  fonctionnalite: string; // Fonctionnalité principale
+  fonctionnalites: string[]; // Liste des fonctionnalités
+  highlights: Highlight[]; // Points forts ou réalisations spécifiques
+  skills:Skills[]; // Ajout de la propriété skills
+
+}
+
+
+
 
 type DateStr = `${string}-${string}-${string}`;
 

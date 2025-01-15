@@ -33,7 +33,7 @@
       }
     ]
   },
-  "work": [
+  "workhh": [
     {
       "name": "InnoSys",
       "position": "Développeur Web PHP",
@@ -42,7 +42,8 @@
       "url": "https://www.innosys.fr/",
       "startDate": "2021-09",
       "endDate": "2024-10",
-      "summary": "Le projet Magarantieauto,L’objectif était de rendre le site plus convivial et plus attractif pour les utilisateurs, tout en améliorant la gestion des données et du contenu.",
+      "projet1nom": "Magarantieauto",
+      "summary": "L’objectif était de rendre le site plus convivial et plus attractif pour les utilisateurs, tout en améliorant la gestion des données et du contenu.",
       "highlights": [
         "Développement de services web"
       ],
@@ -129,6 +130,164 @@
       ]
     }
   ],
+
+  "work": [
+    {
+      "name": "InnoSys",
+      "position": "Développeur Web PHP",
+      "location_type": "On site",
+      "location": "Paris, France",
+      "url": "https://www.innosys.fr/",
+      "startDate": "2021-09",
+      "endDate": "2024-10",
+      "projects": [
+        {
+          "name": "Magarantieauto",
+          "summary": " l’objectif était de rendre le site plus convivial et attractif pour les utilisateurs, tout en améliorant la gestion des données et du contenu.",
+          "highlights": [
+            "Back-office && Front-office"
+          ],
+          "backoffice": [
+            "Système de gestion des prospects avec relances automatiques.",
+            "Refonte du tableau de bord pour améliorer l’accessibilité des données.",
+            "Optimisation des outils de recherche et de filtrage.",
+            "Suivi des ventes des commerciaux via des tableaux de bord.",
+            "Développement d’un système de relance des impayés."
+          ],
+          "frontoffice": [
+            "Optimisation du référencement naturel (SEO).",
+            "Campagne publicitaire Google Ads.",
+            "Création d'une section blog."
+          ],
+          "functionalities": [
+            "Participation aux déploiements automatiques de sites.",
+            "Mise en place d'API REST.",
+            "Correction des bugs et des problèmes de sécurité."
+          ],"skills": [
+            "PHP",
+            "JavaScript",
+            "MySQL",
+            "Docker",
+            "Postman",
+            "GitHub",
+            "Bootstrap"
+          ]
+
+        }, {
+          "name": "Lagon Courtage",
+          "summary": "Maintenance continue du système ET amélioration de l'interface utilisateur et des fonctionnalités existantes.",
+          "highlights": [
+            "Développement de services web"
+          ],
+          "backoffice": [
+            "Collaboration avec l'équipe commerciale pour ajouter de nouveaux produits au système.",
+            "Optimisation des outils de recherche et de filtrage.",
+            "Suivi des ventes via des tableaux de bord."
+          ],
+          "functionalities": [
+            "SOAP API.",
+            "Correction des bugs et des problèmes de sécurité."
+          ],"skills": [
+            "PHP",
+            "Ajax",
+            "MySQL",
+            "Xml",
+            "DataTables"
+          ]
+        },{
+          "name": "Assurmix",
+          "summary": " Le projet d’intégration du nouveau design.",
+          "highlights": [
+            "Back-office && Front-office"
+          ],
+          "functionalities": [
+            "Création des nouvelles pages et fonctionnalités.",
+            "Participation aux déploiements automatiques de sites."
+          ],"skills": [
+            "PHP",
+            "JavaScript",
+            "Bootstrap",
+            "Docker",
+            "Gulp",
+            "GitHub",
+            "Ansistrano"
+          ]
+
+        },{
+          "name": "RGPD",
+          "summary": "L’objectif était de créer une plateforme permettant de rédiger et gérer les documents RGPD des projets avec les réglementations relatives à la protection des données personnelles.",
+          "highlights": [
+            "Back-office && Front-office"
+          ],
+          "backoffice": [
+            "Développement d'une interface pour la gestion des documents RGPD des projets",
+            "Mise en place de formulaires pour collecter les consentements des utilisateurs"
+          ],
+
+          "skills": [
+            "PHP (Laravel 8)",
+            "JavaScript",
+            "MySQL",
+            "GitHub",
+            "Backpack for Laravel (Back-office)"
+          ]
+        }
+      ]
+
+    },
+    {
+      "name": "Younited Credit",
+      "position": "Stage développeur ",
+      "location_type": "hybride",
+      "location": "21 Rue de Châteaudun, 75009 Paris",
+      "url": "https://www.younited-credit.com/",
+      "startDate": "2020-02-01",
+      "endDate": "2020-03-01",
+      "projects": [
+        {
+          "name": "Découverte des Api Rest",
+          "summary": "Ce stage m'a permis de découvrir comment une grande entreprise menait un projet de bout en bout avec la méthode agile et Scrum.",
+        
+          "functionalities": [
+            "API REST",
+            "Développement d'une feature"
+          ],
+          "skills": [
+            "C#",
+            "Postman",
+            "Git"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IRIS Boutique",
+      "position": "Stage développeur",
+      "location_type": "Remote",
+      "location": "Le Marais",
+      "startDate": "2019-12-01",
+      "endDate": "2020-01-01",
+      "summary": "Assisted in developing client websites and applications. Gained hands-on experience with front-end and back-end technologies.",
+      "projects": [
+        {
+          "name": "Site vitrine",
+          "summary": "Ce stage m'a permis de découvrir comment s'organiser autour d'un projet avec un client.",
+          "functionalities": [
+            "MVC"
+          ],
+          "skills": [
+            "Php",
+            "Html",
+            "Css",
+            "Bootstrap",
+            "Adobexd",
+            "Git"
+          ]
+        }
+      ]
+    }
+  ],
+
   "volunteer": [
     {
       "organization": "Local Coding Club",
