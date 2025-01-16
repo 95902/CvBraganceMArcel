@@ -80,7 +80,7 @@
         "PHP",
         "JavaScript",
         "MySQL",
-        "Docker",
+        "docker",
         "Postman",
         "GitHub",
         "Bootstrap"
@@ -167,7 +167,7 @@
             "PHP",
             "JavaScript",
             "MySQL",
-            "Docker",
+            "docker",
             "Postman",
             "GitHub",
             "Bootstrap"
@@ -213,7 +213,7 @@
             "JavaScript",
             "Jquery",
             "Bootstrap",
-            "Docker",
+            "docker",
             "Gulp",
             "GitHub",
             "Ansistrano"
@@ -433,7 +433,7 @@
       ]
     },
     {
-      "name": "Docker",
+      "name": "docker",
       "level": "Intermediate",
       "keywords": [
         "DevOps",
