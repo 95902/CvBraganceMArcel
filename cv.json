@@ -572,7 +572,7 @@
     {
       "name": "Golf Training Progress Tracker",
       "isActive": false,
-      "description": "Une application web en cours  pour suivre et gérer les progrès d'entraînement au golf",
+      "description": "Une application web en cours de développement  pour suivre et gérer les progrès d'entraînement au golf",
       "highlights": [
         "Suivi des statistiques",
         "Gestion des objectifs et des entraînements"
@@ -582,12 +582,10 @@
     {
       "name": "E-commerce Site",
       "isActive": false,
-      "description": "Un site e-commerce en cours avec un backoffice, système de paiement et gestion des mails.",
+      "description": "Un site e-commerce en cours de développement avec un backoffice, système de paiement et gestion des mails.",
       "highlights": [
         "Gestion des produits et des paniers d'achats",
-        "Intégration d'un système de paiement sécurisé",
-        "Backoffice pour la gestion des commandes et des utilisateurs",
-        "Envoi automatique de mails pour la confirmation des commandes"
+        "Backoffice pour la gestion des commandes et des utilisateurs"
       ],
       "url": "https://ecommerce.com"
     }
