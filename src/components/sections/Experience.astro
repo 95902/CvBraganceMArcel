@@ -17,7 +17,12 @@ import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
 import Flutter from "@/icons/flutter.astro"
-import docker  from "@/icons/docker.astro"
+import docker from "@/icons/docker.astro";
+import Adobe from "@/icons/Adobe.astro";
+import Postman from "@/icons/Postman.astro";
+import Bootstrap from "@/icons/Bootstrap.astro";
+import Php  from "@/icons/Php.astro";
+import Xml  from "@/icons/Xml.astro";
 
 
 const SKILLS_ICONS: Record<string, any> = {
@@ -37,6 +42,11 @@ const SKILLS_ICONS: Record<string, any> = {
   Kotlin,
   Flutter,
   docker,
+  Adobe,
+	Postman,
+	Bootstrap,
+  Php,
+  Xml,
 }
 ---
 
@@ -135,7 +145,7 @@ const SKILLS_ICONS: Record<string, any> = {
                       {project.skills && (
                         <div>
                           <h5 class="font-medium my-2">Technologies utilisées:</h5>
-                          <ul class="flex print:hidden text-skin-muted flex-wrap gap-4" aria-label="Technologies utilisées">
+                          <ul class="flex print:hidden text-skin-muted flex-wrap gap-2" aria-label="Technologies utilisées">
                             {project.skills.map(skill => {
                               const iconName = skill === "Next.js" ? "Next" : skill;
                               const Icon = SKILLS_ICONS[iconName];

@@ -164,7 +164,7 @@
             "Implémentation d’API REST.",
             "Correction de bugs et renforcement de la sécurité."
           ],"skills": [
-            "PHP",
+            "Php",
             "JavaScript",
             "MySQL",
             "docker",
@@ -190,11 +190,12 @@
             "Intégration et utilisation des APIs SOAP.",
             "Correction des bugs."
           ],"skills": [
-            "PHP",
+            "Php",
             "Ajax",
             "MySQL",
             "Xml",
-            "DataTables"
+            "DataTables",
+            "GitHub"
           ]
         },{
           "name": "Assurmix",
@@ -298,7 +299,7 @@
             "Html",
             "Css",
             "Bootstrap",
-            "Adobexd",
+            "Adobe",
             "Git"
           ]
         }
@@ -441,7 +442,7 @@
       ]
     },
     {
-      "name": "Xd",
+      "name": "Adobe",
       "level": "Intermediate",
       "keywords": [
         "DevOps",
