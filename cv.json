@@ -22,11 +22,6 @@
         "url": "https://www.linkedin.com/in/marcel-bragance/"
       },
       {
-        "network": "X",
-        "username": "john-doe",
-        "url": "https://x.com/john-doe"
-      },
-      {
         "network": "GitHub",
         "username": "95902",
         "url": "https://github.com/95902"
@@ -360,10 +355,10 @@
       "url": "https://www.udemy.com/fr/"
     },
     {
-      "name": "Symfony 7",
+      "name": "Symfony",
       "date": "2024-09-15",
       "issuer": "",
-      "url": "https://www.udemy.com/certificate/UC-a8332dbb-4009-4537-9c56-e0f01464d242/"
+      "url": "https://www.udemy.com/fr/"
     },
     {
       "name": "CI/CD",
@@ -537,10 +532,12 @@
   ],
   "interests": [
     {
-      "name": "Technology",
+      "name": "",
       "keywords": [
-        "AI",
-        "Blockchain"
+        "Golf",
+        "AI automatisation",
+        "Blockchain",
+        "Voyages"
       ]
     }
   ],
@@ -552,44 +549,45 @@
   ],
   "projects": [
     {
-      "name": "Personal Portfolio",
-      "isActive": false,
-      "description": "A personal portfolio website to showcase my projects and skills.",
+      "name": "Portfolio",
+      "isActive": true,
+      "description": "Un site web personnel pour présenter mes compétences et projets.",
       "highlights": [
-        "Built with React and Tailwind CSS",
-        "Includes a blog and contact form"
+        "Construit avec Hugo",
+        "Inclut un blog et un formulaire de contact"
       ],
-      "url": "https://johndoe.dev",
-      "github": "https://github.com"
+      "url": "https://mars-hell.netlify.app/",
+      "github": "https://github.com/95902"
     },
     {
-      "name": "Weather App",
-      "isActive": true,
-      "description": "A web application that provides weather information for any location.",
+      "name": "Application météo",
+      "isActive": false,
+      "description": "Une application web en cours de développement qui fournit des informations météorologiques pour n'importe quelle localisation.",
       "highlights": [
-        "Built with JavaScript and OpenWeatherMap API",
-        "Responsive design"
+        "Développée avec JavaScript vanilla et l'API OpenWeatherMap",
+        "Design responsive"
       ],
       "url": "https://weatherapp.com"
     },
     {
-      "name": "Task Manager",
-      "isActive": true,
-      "description": "A simple task management app to keep track of daily tasks.",
+      "name": "Golf Training Progress Tracker",
+      "isActive": false,
+      "description": "Une application web en cours  pour suivre et gérer les progrès d'entraînement au golf",
       "highlights": [
-        "Built with Node.js and MongoDB",
-        "User authentication and CRUD operations"
+        "Suivi des statistiques",
+        "Gestion des objectifs et des entraînements"
       ],
-      "url": "https://taskmanager.com",
-      "github": "https://github.com"
+      "url": "https://suiviprogressgolf.com"
     },
     {
       "name": "E-commerce Site",
       "isActive": false,
-      "description": "An online store built with Next.js and Stripe for payment processing.",
+      "description": "Un site e-commerce en cours avec un backoffice, système de paiement et gestion des mails.",
       "highlights": [
-        "Product management and shopping cart functionality",
-        "Secure payment integration"
+        "Gestion des produits et des paniers d'achats",
+        "Intégration d'un système de paiement sécurisé",
+        "Backoffice pour la gestion des commandes et des utilisateurs",
+        "Envoi automatique de mails pour la confirmation des commandes"
       ],
       "url": "https://ecommerce.com"
     }
