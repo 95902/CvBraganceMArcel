@@ -317,6 +317,16 @@
   ],
   "education": [
     {
+      "institution": "ALYRA - L’école de L'ia ",
+      "url": "https://www.alyra.fr/",
+      "area": "Développement intelligence artificielle",
+      "studyType": "Certification IA",
+      "startDate": "2025-02",
+      "endDate": "2025-05",
+      "score": "",
+      "courses": []
+    },
+    {
       "institution": "IRIS - École supérieure d'informatique",
       "url": "https://ecoleiris.fr/",
       "area": "Métiers de l’informatique",
